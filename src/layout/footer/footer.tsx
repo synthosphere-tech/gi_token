@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo logo">
                   <Link href="/contact">
-                    <Image src={logo} alt="Logo" width={177} height={40} />
+                    <Image src={logo} alt="Logo" width={120} height={110} />
                   </Link>
                 </div>
                 <div className="footer-text">
