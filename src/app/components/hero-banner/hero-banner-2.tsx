@@ -20,7 +20,7 @@ const HeroBannerTwo = () => {
                 gaming intelligence
               </h2>
               <p className="wow bounceInLeft" data-wow-delay=".4s">
-                video games online
+                play games, earn crypto
               </p>
               <div
                 className="banner__btn wow bounceInLeft"

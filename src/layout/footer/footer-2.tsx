@@ -2,7 +2,7 @@
 import React,{useEffect} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/GI2.png';
 
 const FooterTwo = () => {
   useEffect(() => {
