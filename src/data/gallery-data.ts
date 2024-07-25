@@ -14,31 +14,31 @@ const gallery_data:{
   {
     id:1,
     img:img_1,
-    title:'Pubg tournament',
+    title:'GI tournament',
     rate:'50%'
   },
   {
     id:2,
     img:img_2,
-    title:'Assassins Creed',
+    title:'Bubble Shooter',
     rate:'65%'
   },
   {
     id:3,
     img:img_3,
-    title:'World of Warcraft',
+    title:'GI Crypto',
     rate:'60%'
   },
   {
     id:4,
     img:img_4,
-    title:'The Chant s.2',
+    title:'Crypto Blast',
     rate:'70%'
   },
   {
     id:5,
     img:img_5,
-    title:'Dota 2 tournament',
+    title:'Crypto Rush',
     rate:'85%'
   },
 ]
