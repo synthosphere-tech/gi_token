@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/GI2.png';
 import social_data from "@/data/social-data";
 import MobileMenus from "./mobile-menus";
 import Link from "next/link";

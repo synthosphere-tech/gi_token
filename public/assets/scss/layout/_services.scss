@@ -45,7 +45,7 @@
         font-size: 40px;
         display: block;
         line-height: 1;
-        color: var(--tg-theme-primary);
+        color: var(--tg-theme-secondary);
         margin: 0 0 30px;
     }
     &__content {
@@ -57,7 +57,7 @@
             margin: 0 0 18px;
             & a {
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
         }

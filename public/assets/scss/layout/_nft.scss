@@ -155,7 +155,7 @@
             padding: 11px 14px;
             margin-left: auto;
             &:hover {
-                background: var(--tg-theme-primary);
+                background: var(--tg-theme-secondary);
             }
         }
     }
@@ -212,8 +212,8 @@
             font-size: 18px;
             color: #adb0bc;
             &:hover {
-                border-color: var(--tg-theme-primary);
-                color: var(--tg-theme-primary);
+                border-color: var(--tg-theme-secondary);
+                color: var(--tg-theme-secondary);
             }
         }
     }
@@ -269,7 +269,7 @@
                     font-family: var(--tg-heading-font-family);
                     text-decoration: underline;
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -279,7 +279,7 @@
             & a {
                 color: #c9c9c9;
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
         }
@@ -317,7 +317,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 &:hover {
-                    background: var(--tg-theme-primary);
+                    background: var(--tg-theme-secondary);
                 }
             }
             &::before {

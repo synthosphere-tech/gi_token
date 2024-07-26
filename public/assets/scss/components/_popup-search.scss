@@ -62,7 +62,7 @@
         top: 5%;
         right: 5%;
         font-size: 30px;
-        color: var(--tg-theme-primary);
+        color: var(--tg-theme-secondary);
         cursor: pointer;
     }
     &__wrap {
@@ -77,7 +77,7 @@
             font-family: var(--tg-heading-font-family);
             font-weight: var(--tg-fw-extra-bold);
             text-transform: uppercase;
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
             letter-spacing: -1px;
             & span {
                 color: var(--tg-common-color-white);
@@ -110,7 +110,7 @@
                 background: transparent;
                 border: 0;
                 font-size: 25px;
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
                 top: 50%;
                 @include transform(translateY(-50%));
             }
@@ -122,7 +122,7 @@
             bottom: 0;
             width: 0;
             height: 2px;
-            background: var(--tg-theme-primary);
+            background: var(--tg-theme-secondary);
             @include transition-2(all 600ms ease);
         }
     }

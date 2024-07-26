@@ -125,7 +125,7 @@
                         }
                     }
                     &.open {
-                        background-color: var(--tg-theme-primary);
+                        background-color: var(--tg-theme-secondary);
                         & .plus-line {
                             background-color: var(--tg-common-color-black);
                             &::after {
@@ -214,7 +214,7 @@
             width: 35px;
             text-align: center;
             font-size: 20px;
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
             cursor: pointer;
             z-index: 10;
             -webkit-transition: all 0.5s ease;
@@ -268,8 +268,8 @@
                     -ms-border-radius: 3px;
                     -o-border-radius: 3px;
                     &:hover {
-                        border-color: var(--tg-theme-primary);
-                        background: var(--tg-theme-primary);
+                        border-color: var(--tg-theme-secondary);
+                        background: var(--tg-theme-secondary);
                         color: var(--tg-common-color-black);
                     }
                 }

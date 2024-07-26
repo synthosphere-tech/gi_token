@@ -31,10 +31,10 @@
             font-size: 26px;
             cursor: pointer;
             line-height: 1;
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
             display: none;
             margin-top: 3px;
-            border: 2px solid var(--tg-theme-primary);
+            border: 2px solid var(--tg-theme-secondary);
             padding: 5px 10px;
             @media #{$lg} {
                 display: block;
@@ -136,7 +136,7 @@
                                 display: block;
                                 width: 0;
                                 height: 7px;
-                                background-color: var(--tg-theme-primary);
+                                background-color: var(--tg-theme-secondary);
                                 @include border-radius(0 5px 0 0);
                                 margin: 7px 9px 0 0;
                                 @include transition-2(width .2s linear);
@@ -169,7 +169,7 @@
                         height: 1px;
                         top: 50%;
                         @include transform(translateY(-50%) rotate(0deg));
-                        background: var(--tg-theme-primary);
+                        background: var(--tg-theme-secondary);
                         margin: 0 auto;
                         opacity: 0;
                         @include transition(.3s);
@@ -178,7 +178,7 @@
                 &.active,
                 &:hover {
                     & > a {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                         &::before {
                             opacity: 1;
                             @include transform(translateY(-50%) rotate(-40deg));
@@ -212,7 +212,7 @@
                 & .tg-btn-3 {
                     width: 150px;
                     height: 45px;
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     font-size: 15px;
                     font-weight: var(--tg-fw-bold);
                     letter-spacing: 1px;
@@ -221,7 +221,7 @@
                     }
                     & .svg-icon {
                         fill: #0f1d29;
-                        stroke: var(--tg-theme-primary);
+                        stroke: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -234,7 +234,7 @@
                 display: block;
                 font-size: 20px;
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
         }
@@ -257,7 +257,7 @@
                 background-color: #131b22;
                 box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.61);
                 @media #{$lg} {
-                    box-shadow: inset 0px 3px 7px 0px var(--tg-theme-primary);
+                    box-shadow: inset 0px 3px 7px 0px var(--tg-theme-secondary);
                     opacity: .1;
                 }
             }

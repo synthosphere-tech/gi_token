@@ -3,7 +3,7 @@
   margin-top: -8px;
   width: 10px;
   height: 10px;
-  background-color: var(--tg-theme-primary);
+  background-color: var(--tg-theme-secondary);
   box-sizing: border-box;
   z-index: 10000000;
   transition: all 0.08s ease-out;
@@ -47,7 +47,7 @@
     width: 80px;
     height: 80px;
     z-index: 99999;
-    background-color: var(--tg-theme-primary);
+    background-color: var(--tg-theme-secondary);
     transition: all 0.2s linear;
     display: flex;
     align-items: center;

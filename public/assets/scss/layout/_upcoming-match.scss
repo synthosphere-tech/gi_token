@@ -72,7 +72,7 @@
         }
         &:hover {
             & .svg-icon {
-                stroke: var(--tg-theme-primary);
+                stroke: var(--tg-theme-secondary);
             }
         }
     }
@@ -131,7 +131,7 @@
             height: 90px;
         }
         &:hover {
-            border-color: var(--tg-theme-primary);
+            border-color: var(--tg-theme-secondary);
         }
         & img {
             max-height: 75px;
@@ -177,7 +177,7 @@
                 font-family: var(--tg-heading-font-family);
                 font-size: 14px;
                 font-weight: var(--tg-fw-bold);
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
                 letter-spacing: 1px;
             }
             & .name {
@@ -198,7 +198,7 @@
                     font-size: 20px;
                 }
                 & a:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
             &.info-left {
@@ -307,7 +307,7 @@
     &__item:hover {
         & .upcoming-match__date {
             & svg {
-                fill: var(--tg-theme-primary);
+                fill: var(--tg-theme-secondary);
             }
             & span {
                 color: #0f1c23;

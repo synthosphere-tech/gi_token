@@ -49,7 +49,7 @@
                 top: 0;
                 width: 100%;
                 height: 1px;
-                background: linear-gradient(90deg, transparent 0%, var(--tg-theme-primary) 50%, transparent 100%);
+                background: linear-gradient(90deg, transparent 0%, var(--tg-theme-secondary) 50%, transparent 100%);
             }
             &::after {
                 top: auto;
@@ -93,9 +93,9 @@
                     }
                     &:hover,
                     &.active {
-                        background: linear-gradient(180deg, #10181f 0%, var(--tg-theme-primary) 48%, #10181f 100%) border-box;
+                        background: linear-gradient(180deg, #10181f 0%, var(--tg-theme-secondary) 48%, #10181f 100%) border-box;
                         & .img-shape {
-                            background: linear-gradient(180deg, #10181f 0%, var(--tg-theme-primary) 48%, #10181f 100%) border-box;
+                            background: linear-gradient(180deg, #10181f 0%, var(--tg-theme-secondary) 48%, #10181f 100%) border-box;
                         }
                     }
                 }
@@ -114,8 +114,8 @@
                 bottom: 0;
                 width: 100%;
                 height: 1px;
-                background: var(--tg-theme-primary);
-                background: linear-gradient(45deg, rgba(2, 0, 36, 0) 0%, var(--tg-theme-primary) 100%);
+                background: var(--tg-theme-secondary);
+                background: linear-gradient(45deg, rgba(2, 0, 36, 0) 0%, var(--tg-theme-secondary) 100%);
                 opacity: 0.329;
                 @media #{$lg} {
                     right: 0;
@@ -233,7 +233,7 @@
                         padding: 13px 30px;
                     }
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -515,16 +515,16 @@
                     flex: 0 0 auto;
                     border: 2px solid var(--tg-common-color-white);
                     @include border-radius(50%);
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     font-size: 14px;
                     @include transition(.3s);
                 }
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     & i {
-                        background: var(--tg-theme-primary);
+                        background: var(--tg-theme-secondary);
                         color: var(--tg-common-color-black-2);
-                        border-color: var(--tg-theme-primary);
+                        border-color: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -608,7 +608,7 @@
                 font-weight: var(--tg-fw-light);
             }
             & span {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
             & b {
                 font-weight: var(--tg-fw-extra-bold);
@@ -651,7 +651,7 @@
                 width: 75px;
                 height: 75px;
                 box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.32);
-                background-color: var(--tg-theme-primary);
+                background-color: var(--tg-theme-secondary);
                 -webkit-transform-origin: left bottom;
                 transform-origin: left bottom;
                 -webkit-transition: 1s;
@@ -750,7 +750,7 @@
         position: absolute;
         top: 20px;
         right: 22px;
-        color: var(--tg-theme-primary);
+        color: var(--tg-theme-secondary);
         -webkit-animation: xAnimation 5s infinite;
         animation: xAnimation 5s infinite;
         @media #{$xl} {

@@ -6,7 +6,7 @@
 .btn {
     user-select: none;
     -moz-user-select: none;
-    background: var(--tg-theme-primary) none repeat scroll 0 0;
+    background: var(--tg-theme-secondary) none repeat scroll 0 0;
     border: medium none;
     border-radius: 2px;
     color: var(--tg-common-color-black-2);
@@ -98,7 +98,7 @@
         }
         &:hover {
             & span::after {
-                background: var(--tg-theme-primary);
+                background: var(--tg-theme-secondary);
             }
         }
     }
@@ -130,7 +130,7 @@
         top: 0;
         bottom: 0;
         right: 0;
-        background: var(--tg-theme-primary);
+        background: var(--tg-theme-secondary);
         clip-path: polygon(27px 0, calc(85% + -3px) 0, 100% 50%, calc(85% + -1px) 100%, 24px 100%, 0% 50%);
         @include transition(.3s);
         opacity: 0;
@@ -156,7 +156,7 @@
     font-family: var(--tg-heading-font-family);
     color: var(--tg-common-color-white);
     font-weight: var(--tg-fw-bold);
-    border: 2px solid var(--tg-theme-primary);
+    border: 2px solid var(--tg-theme-secondary);
     white-space: nowrap;
     font-size: 20px;
     padding: 14px 35px;
@@ -182,7 +182,7 @@
         @include transform(translateY(-50%) rotate(180deg));
     }
     &:hover {
-        background-color: var(--tg-theme-primary);
+        background-color: var(--tg-theme-secondary);
         color: var(--tg-common-color-black-2);
     }
     &.-secondary {

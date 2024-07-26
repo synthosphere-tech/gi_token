@@ -76,7 +76,7 @@ const GalleryArea = () => {
                           onMouseEnter={handleMouseEnter} 
                           onMouseLeave={handleMouseLeave}
                         >
-                          <Image src={item.img} alt="img" style={{width:'100%',height:'auto'}} />
+                          <Image src={item.img} alt="img" style={{width:'90%',height:'80%'}} />
                         </a>
                       </div>
                       <div className="gallery__content">

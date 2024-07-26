@@ -1,9 +1,9 @@
 import { StaticImageData } from 'next/image';
-import img_1 from '@/assets/img/gallery/gallery01.jpg';
-import img_2 from '@/assets/img/gallery/gallery02.jpg';
+import img_1 from '@/assets/img/gallery/gi-tournament.jpg';
+import img_2 from '@/assets/img/gallery/bubble-shooter.png';
 import img_3 from '@/assets/img/gallery/gallery03.jpg';
-import img_4 from '@/assets/img/gallery/gallery04.jpg';
-import img_5 from '@/assets/img/gallery/gallery05.jpg';
+import img_4 from '@/assets/img/gallery/gi-crypto.png';
+import img_5 from '@/assets/img/gallery/crypto-rush.jpg';
 
 const gallery_data:{
   id: number;
@@ -20,7 +20,7 @@ const gallery_data:{
   {
     id:2,
     img:img_2,
-    title:'Bubble Shooter',
+    title:'GI Crypto Bubble Shooter',
     rate:'65%'
   },
   {

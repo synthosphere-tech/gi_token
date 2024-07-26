@@ -26,7 +26,7 @@
                     color: var(--tg-body-color);
                     position: relative;
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -42,7 +42,7 @@
                             bottom: 0;
                             width: 100%;
                             height: 1px;
-                            background: var(--tg-theme-primary);
+                            background: var(--tg-theme-secondary);
                             -webkit-transform-origin: right top;
                             -ms-transform-origin: right top;
                             transform-origin: right top;
@@ -86,7 +86,7 @@
             color: #ecebeb;
             line-height: 1;
             & span {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
     }
@@ -218,7 +218,7 @@
             }
             &::after {
                 content: "\f0da";
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
                 left: 11px;
             }
         }
@@ -240,7 +240,7 @@
                 }
                 &::after {
                     content: "\f0da";
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     left: auto;
                     right: 0;
                     @media #{$xs} {
@@ -263,7 +263,7 @@
                 & a {
                     color: #e2e1e1;
                     &:hover {
-                        color: var(--tg-theme-primary)
+                        color: var(--tg-theme-secondary)
                     }
                 }
             }
@@ -297,13 +297,13 @@
                             height: 1px;
                             top: 50%;
                             @include transform(translateY(-50%) rotate(0deg));
-                            background: var(--tg-theme-primary);
+                            background: var(--tg-theme-secondary);
                             margin: 0 auto;
                             opacity: 0;
                             @include transition(.3s);
                         }
                         &:hover {
-                            color: var(--tg-theme-primary);
+                            color: var(--tg-theme-secondary);
                             &::before {
                                 opacity: 1;
                                 @include transform(translateY(-50%) rotate(-40deg));
@@ -354,7 +354,7 @@
             @include flexbox();
             align-items: center;
             justify-content: center;
-            background: var(--tg-theme-primary);
+            background: var(--tg-theme-secondary);
             &:hover {
                 background: var(--tg-theme-secondary);
             }
@@ -385,7 +385,7 @@
                 line-height: 1.45;
             }
             & span {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
     }
@@ -412,7 +412,7 @@
                     font-weight: var(--tg-fw-semi-bold);
                     font-family: var(--tg-heading-font-family);
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                     }
                 }
             }

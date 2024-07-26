@@ -63,7 +63,7 @@
                     font-size: 28px;
                 }
                 & a:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
             & p {
@@ -89,14 +89,14 @@
                     font-weight: var(--tg-fw-semi-bold);
                     line-height: 1;
                     & i {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                         margin-right: 5px;
                     }
                     & a {
                         display: block;
                         color: var(--tg-body-color);
                         &:hover {
-                            color: var(--tg-theme-primary);
+                            color: var(--tg-theme-secondary);
                         }
                     }
                 }
@@ -121,13 +121,13 @@
                 letter-spacing: .5px;
                 & i {
                     font-size: 16px;
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     @include transform(rotate(-45deg));
                     @include transition(.3s);
                     margin-left: 4px;
                 }
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     & i {
                         @include transform(rotate(0));
                     }
@@ -157,7 +157,7 @@
                     font-size: 14px;
                     color: var(--tg-body-color);
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: var(--tg-theme-secondary);
                     }
                 }
             }
@@ -245,7 +245,7 @@
                             color: var(--tg-body-color);
                             font-weight: var(--tg-fw-medium);
                             &:hover {
-                                color: var(--tg-theme-primary);
+                                color: var(--tg-theme-secondary);
                             }
                         }
                     }
@@ -263,7 +263,7 @@
                 color: var(--tg-common-color-white);
                 font-size: 15px;
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
         }
@@ -288,7 +288,7 @@ blockquote {
         left: 0;
         top: 0;
         font-family: "Flaticon";
-        color: var(--tg-theme-primary);
+        color: var(--tg-theme-secondary);
         font-size: 52px;
         line-height: 1;
         font-style: normal;
@@ -368,7 +368,7 @@ blockquote {
                 font-size: 20px;
                 margin-bottom: 12px;
                 & a:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
             & p {
@@ -436,11 +436,11 @@ blockquote {
             font-size: 16px;
             letter-spacing: 1.5px;
             & i {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
                 margin-right: 3px;
             }
             &:hover {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
         & p {
@@ -504,7 +504,7 @@ blockquote {
         & [type=submit] {
             -webkit-clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
             clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
-            background: var(--tg-theme-primary);
+            background: var(--tg-theme-secondary);
             color: var(--tg-common-color-black);
             font-family: var(--tg-heading-font-family);
             text-transform: uppercase;
@@ -552,7 +552,7 @@ blockquote {
                 line-height: 1;
                 color: var(--tg-common-color-white);
                 &:hover {
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                 }
             }
         }
@@ -589,7 +589,7 @@ blockquote {
             color: var(--tg-common-color-white);
             font-size: 18px;
             &:hover {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
     }
@@ -622,13 +622,13 @@ blockquote {
                     width: 0;
                     height: 7px;
                     @include transform(translateY(-50%));
-                    background-color: var(--tg-theme-primary);
+                    background-color: var(--tg-theme-secondary);
                     @include border-radius(0 5px 0 0);
                     @include transition-2(width .2s linear);
                 }
                 &:hover {
                     padding-left: 18px;
-                    color: var(--tg-theme-primary);
+                    color: var(--tg-theme-secondary);
                     &::before {
                         width: 7px;
                     }
@@ -679,7 +679,7 @@ blockquote {
             letter-spacing: .5px;
             margin: 0 0 5px;
             & a:hover {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
         & .date {
@@ -706,12 +706,12 @@ blockquote {
             background: transparent;
             font-size: 15px;
             font-weight: var(--tg-fw-medium);
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
             padding: 0 0 15px;
             &::placeholder {
                 font-size: 15px;
                 font-weight: var(--tg-fw-medium);
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
         & [type=submit] {
@@ -755,8 +755,8 @@ blockquote {
             padding: 6px 20px;
         }
         &:hover {
-            background: var(--tg-theme-primary);
-            border-color: var(--tg-theme-primary);
+            background: var(--tg-theme-secondary);
+            border-color: var(--tg-theme-secondary);
             color: var(--tg-common-color-black);
         }
     }

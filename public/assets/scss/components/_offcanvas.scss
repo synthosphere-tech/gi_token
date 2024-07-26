@@ -55,7 +55,7 @@
         cursor: pointer;
         @include transition(.3s);
         &:hover {
-            background: var(--tg-theme-primary);
+            background: var(--tg-theme-secondary);
             color: var(--tg-common-color-black);
         }
         @media #{$xl} {
@@ -71,7 +71,7 @@
             letter-spacing: 1px;
             margin: 0 0 50px;
             & span {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
     }
@@ -81,7 +81,7 @@
             font-size: 16px;
             letter-spacing: .5px;
             font-weight: var(--tg-fw-semi-bold);
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
         }
         &-form {
             position: relative;
@@ -154,7 +154,7 @@
                 }
                 &:hover {
                     &::before {
-                        background: var(--tg-theme-primary);
+                        background: var(--tg-theme-secondary);
                     }
                 }
                 &:last-child {
@@ -163,7 +163,7 @@
                 & a {
                     color: var(--tg-body-color);
                     &:hover {
-                        color: var(--tg-theme-primary)
+                        color: var(--tg-theme-secondary)
                     }
                 }
             }
@@ -184,7 +184,7 @@
                 font-size: 16px;
                 color: var(--tg-common-color-white);
                 &:hover {
-                    color: var(--tg-theme-primary)
+                    color: var(--tg-theme-secondary)
                 }
             }
         }
@@ -201,7 +201,7 @@
             font-family: var(--tg-heading-font-family);
             letter-spacing: 1px;
             & span {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
             }
         }
     }

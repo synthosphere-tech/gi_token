@@ -41,7 +41,7 @@
             font-weight: var(--tg-fw-bold);
             letter-spacing: 4px;
             font-size: 20px;
-            color: var(--tg-theme-primary);
+            color: var(--tg-theme-secondary);
             position: relative;
             padding: 17px 0 17px 20px;
             @media #{$lg} {
@@ -279,7 +279,7 @@
             width: 50%;
             -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
             clip-path: polygon(0 0, 0 100%, 100% 100%);
-            background-color: var(--tg-theme-primary);
+            background-color: var(--tg-theme-secondary);
             height: 50px;
             @media #{$xl} {
                 height: 40px;

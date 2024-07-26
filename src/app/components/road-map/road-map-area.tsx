@@ -24,10 +24,10 @@ const road_map_lists: IRoadMap[] = [
     active: true,
     title: "season 1",
     lists: [
-      { active: true, text: "Battle Practice Mode" },
-      { active: true, text: "iOS Open Beta" },
-      { active: true, text: "Land Creation & Building" },
-      { active: true, text: "Land Creation & Building" },
+      { active: true, text: "Website creation and launch" },
+      { active: true, text: "Official social media launch" },
+      { active: true, text: "Kick start with 20k telegram subscribers and community" },
+      { active: true, text: "Token creation and deployed on BEP20 and Polygon network both" },
     ],
   },
   {
@@ -35,10 +35,10 @@ const road_map_lists: IRoadMap[] = [
     active: false,
     title: "season 2",
     lists: [
-      { active: true, text: "Battle Practice Mode" },
-      { active: true, text: "iOS Open Beta" },
-      { active: false, text: "Land Creation & Building" },
-      { active: false, text: "Land Creation & Building" },
+      { active: true, text: "Private sale started" },
+      { active: true, text: "Airdrop for community" },
+      { active: false, text: "50k telegram community" },
+      { active: false, text: "Youtube subscriber community 5k" },
     ],
   },
   {
@@ -46,10 +46,34 @@ const road_map_lists: IRoadMap[] = [
     active: false,
     title: "season 3",
     lists: [
-      { active: false, text: "Battle Practice Mode" },
-      { active: false, text: "iOS Open Beta" },
-      { active: false, text: "Land Creation & Building" },
-      { active: false, text: "Land Creation & Building" },
+      { active: false, text: "Airdrop token distribution" },
+      { active: false, text: "Pre sale and listing tier1 exchange" },
+      { active: false, text: "Coinmarketcap listing" },
+      { active: false, text: "Uniswap transaction listing" },
+      { active: false, text: "First gaming launch (beta version)" },
+    ],
+  },
+  {
+    id: 4,
+    active: false,
+    title: "season 4",
+    lists: [
+      { active: false, text: "First gaming live" },
+      { active: false, text: "Another cex listing" },
+      { active: false, text: "Telegram community 100k" },
+      { active: false, text: "Play to earn campaign" },
+      { active: false, text: "Influencer marketing" },
+    ],
+  },
+  {
+    id: 5,
+    active: false,
+    title: "season 5",
+    lists: [
+      { active: false, text: "Second game beta version launch" },
+      { active: false, text: "Another tier1 exchange listing" },
+      { active: false, text: "Second game live" },
+      { active: false, text: "Announcement of next roadmap" },
     ],
   },
 ];

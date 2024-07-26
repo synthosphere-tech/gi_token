@@ -82,9 +82,9 @@
                 @include transition(.3s);
             }
             &:hover {
-                color: var(--tg-theme-primary);
+                color: var(--tg-theme-secondary);
                 & .count {
-                    background: var(--tg-theme-primary);
+                    background: var(--tg-theme-secondary);
                 }
             }
             &:not(.collapsed) {
@@ -92,7 +92,7 @@
                     content: "\f068";
                 }
                 & .count {
-                    background: var(--tg-theme-primary);
+                    background: var(--tg-theme-secondary);
                 }
             }
         }
