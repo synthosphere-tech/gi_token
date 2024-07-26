@@ -25,7 +25,6 @@ const menu_data:IMenuDataType[] = [
     title:'TOURNAMENT',
     link:'#',
     sub_menu:[
-      {title:'TOURNAMENT',link:'/tournament'},
       {title:'TOURNAMENT Single',link:'/tournament-details'},
     ]
   },
@@ -34,11 +33,7 @@ const menu_data:IMenuDataType[] = [
     title:'PAGES',
     link:'#',
     sub_menu:[
-      {title:'Gaming Shop',link:'/shop'},
       {title:'Shop Details',link:'/shop-details'},
-      {title:'Our Services',link:'/services'},
-      {title:'Services Details',link:'/service-details'},
-      {title:'Player Details',link:'/team-details'},
     ]
   },
   {
