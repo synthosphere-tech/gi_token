@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/GI2.png';
 import social_data from '@/data/social-data';
 
 // prop type 
@@ -24,7 +24,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
               <div className="offCanvas__top">
                   <div className="offCanvas__logo logo">
                       <Link href="/">
-                        <Image src={logo} alt="Logo" width={177} height={40} />
+                        <Image src={logo} alt="Logo" width={100} height={100} />
                       </Link>
                   </div>
                   <div className="offCanvas__toggle" onClick={() => handleCloseOffCanvas('/assets/audio/remove.wav')}>
@@ -32,13 +32,11 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                   </div>
               </div>
               <div className="offCanvas__content">
-                  <h2 className="title">Best Seller of Month Ideas for <span>NFT Wallet</span></h2>
+                  <h2 className="title">Best Trending games on <span>Crypto World</span></h2>
                   <div className="offCanvas__contact">
                       <h4 className="small-title">CONTACT US</h4>
                       <ul className="offCanvas__contact-list list-wrap">
-                          <li><Link href="tel:93332225557">+9 333 222 5557</Link></li>
-                          <li><Link href="mailto:info@webmail.com">info@webmail.com</Link></li>
-                          <li>New Central Park W7 Street,New York</li>
+                          <li><Link href="mailto:info@gamingintelligence.com">info@gamingintelligence.com</Link></li>
                       </ul>
                   </div>
                   <div className="offCanvas__newsletter">
@@ -47,7 +45,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                           <input type="email" placeholder="Get News & Updates"/>
                           <button type="submit"><i className="flaticon-send"></i></button>
                       </form>
-                      <p>Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
+                      <p>Subscribe to our community</p>
                   </div>
                   <ul className="offCanvas__social list-wrap">
                     {social_data.map((s,i) => (
@@ -56,7 +54,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                   </ul>
               </div>
               <div className="offCanvas__copyright">
-                  <p>Copyright © {new Date().getFullYear()} - By <span>MYKD</span></p>
+                  <p>Copyright © {new Date().getFullYear()} - By <span>GI - Gaming Intelligence</span></p>
               </div>
           </div>
       </div>
