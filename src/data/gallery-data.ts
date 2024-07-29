@@ -25,21 +25,21 @@ const gallery_data:{
   },
   {
     id:3,
-    img:img_3,
-    title:'GI Crypto',
-    rate:'60%'
-  },
-  {
-    id:4,
     img:img_4,
     title:'Crypto Blast',
     rate:'70%'
   },
   {
-    id:5,
+    id:4,
     img:img_5,
     title:'Crypto Rush',
     rate:'85%'
+  },
+  {
+    id:5,
+    img:img_5,
+    title:'GI Crypto',
+    rate:'60%'
   },
 ]
 

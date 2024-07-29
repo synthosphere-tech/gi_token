@@ -98,7 +98,8 @@ const AboutAreaTwo = () => {
                     </Link>
                     <a
                       className="popup-video cursor-pointer"
-                      onClick={() => setIsVideoOpen(true)}
+                      href="https://youtu.be/Ana5iM6D7oo?si=rzoXfN9TXSiT9c7B"
+                      target="blank"
                     >
                       <i className="fas fa-play"></i>
                       <span className="text">How It Work</span>
