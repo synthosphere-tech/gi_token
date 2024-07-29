@@ -28,7 +28,7 @@ export default function AboutPage() {
         {/* Services area end*/}
 
         {/* team area start */}
-        <TeamArea/>
+        
         {/* team area end */}
       </main>
       {/* main area end */}
