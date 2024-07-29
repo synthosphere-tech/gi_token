@@ -4,8 +4,10 @@ import TextAnimation from '../common/text-animation';
 import AboutDots from '../svg/about-dots';
 import Circle from '../svg/circle';
 import circle_img from '@/assets/img/icons/circle.svg';
+import logo from '@/assets/img/logo/GI2.png'
 import mask_img from '@/assets/img/others/mask_img01.jpg';
 import mask_img_2 from '@/assets/img/others/mask_img02.jpg';
+import { auto } from '@popperjs/core';
 
 const AboutAreaThree = () => {
   return (
@@ -15,13 +17,13 @@ const AboutAreaThree = () => {
             <div className="col-xl-4">
                 <div className="about__title-wrap">
                     <h2 className="title">
-                        <i>WE ARE</i>
-                        <span>developer</span>
-                        <i>ern nft</i>
-                        <i>gam<b>ing</b></i>
+                        <i>Play</i>
+                        <span>Game</span>
+                        <i>and earn</i>
+                        <i>Cry<b>pto</b></i>
                     </h2>
                     <div className="about__content-circle">
-                        <Image src={circle_img} alt="img"/>
+                        <Image src={circle_img} alt="logo"/>
                         <Circle/>
                     </div>
                 </div>

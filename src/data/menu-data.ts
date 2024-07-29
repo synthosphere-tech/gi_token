@@ -22,31 +22,32 @@ const menu_data:IMenuDataType[] = [
   },
   {
     id:3,
-    title:'TOURNAMENT',
+    title:'GI GAMES',
     link:'#',
     sub_menu:[
-      {title:'TOURNAMENT Single',link:'/tournament-details'},
+      {title:'GI CRYPTO BUBBLE SHOOTER',link:'/tournament-details'},
+      {title:'GI CRYPTO BLAST',link:'/tournament-details'},
+      {title:'GI CRYPTO RUSH',link:'/tournament-details'},
     ]
   },
+  // {
+  //   id:4,
+  //   title:'PAGES',
+  //   link:'#',
+  //   sub_menu:[
+  //     {title:'Shop Details',link:'/shop-details'},
+  //   ]
+  // },
   {
     id:4,
-    title:'PAGES',
+    title:'News',
     link:'#',
     sub_menu:[
-      {title:'Shop Details',link:'/shop-details'},
+      {title:'Blog Details',link:'/blog-details'},
     ]
   },
   {
     id:5,
-    title:'News',
-    link:'#',
-    sub_menu:[
-      {title:'Our Blog',link:'/blog'},
-      {title:'Blog Details',link:'/blog-details'}
-    ]
-  },
-  {
-    id:6,
     title:'CONTACT',
     link:'/contact',
   },

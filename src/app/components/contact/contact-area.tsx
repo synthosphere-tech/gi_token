@@ -12,21 +12,20 @@ const ContactArea = () => {
               <h2 className="overlay-title">
                 <span>join us</span>
               </h2>
-              <h2 className="title">CONTACT US AND FIND YOUR mykd</h2>
+              <h2 className="title">CONTACT US AND FIND YOUR GI Token</h2>
               <p>
-                Axcepteur sint occaecat atat non proident, sunt culpa officia
-                deserunt mollit anim id est labor umLor emdolor
+                Our project is dedicated to revolutionizing the gaming industry
+                by introducing a unique crypto token designed specifically for
+                enhancing artificial intelligence (AI) in gaming
               </p>
               <div className="footer-el-widget">
                 <h4 className="title">information</h4>
                 <ul className="list-wrap">
                   <li>
-                    <Link href="tel:123">+971 333 222 557</Link>
+                    <Link href="mailto:info@gamingintelligence.com">
+                      info@gamingintelligence.com
+                    </Link>
                   </li>
-                  <li>
-                    <Link href="mailto:info@exemple.com">info@exemple.com</Link>
-                  </li>
-                  <li>New Central Park W7 Street, New York</li>
                 </ul>
               </div>
             </div>

@@ -39,9 +39,7 @@ const Footer = () => {
                 <ul className="list-wrap menu">
                   <li><Link href="#">Gaming</Link></li>
                   <li><Link href="#">Product</Link></li>
-                  <li><Link href="#">All NFTs</Link></li>
                   <li><Link href="#">Social Network</Link></li>
-                  <li><Link href="#">Domain Names</Link></li>
                   <li><Link href="#">Collectibles</Link></li>
                 </ul>
               </div>
@@ -52,9 +50,6 @@ const Footer = () => {
                 <ul className="list-wrap menu">
                   <li><Link href="#">Setting & Privacy</Link></li>
                   <li><Link href="#">Help & Support</Link></li>
-                  <li><Link href="#">Live Auctions</Link></li>
-                  <li><Link href="#">Item Details</Link></li>
-                  <li><Link href="#">24/7 Supports</Link></li>
                   <li><Link href="#">Our News</Link></li>
                 </ul>
               </div>
@@ -79,7 +74,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-md-7">
               <div className="copyright__text">
-                <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>Mykd</span></p>
+                <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>GI - Gaming Intelligence</span></p>
               </div>
             </div>
             <div className="col-md-5">

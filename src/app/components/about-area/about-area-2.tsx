@@ -71,12 +71,12 @@ const AboutAreaTwo = () => {
                   </svg>
                 </div>
                 <div className="about__funFact-wrap">
-                  <div className="about__funFact-lists">
+                  {/* <div className="about__funFact-lists">
                     <div className="about__funFact-item">
                       <h2 className="count">
                         <CounterUp number={40} text="K" />
                       </h2>
-                      <p>Member</p>
+                      <p>Active Players</p>
                     </div>
                     <div className="about__funFact-item">
                       <h2 className="count">
@@ -90,7 +90,7 @@ const AboutAreaTwo = () => {
                       </h2>
                       <p>Artist</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="about__content-btns">
                     <Link href="/contact" className="tg-btn-3 tg-svg">
                       <SvgIconCom icon={shape} id="svg-6" />

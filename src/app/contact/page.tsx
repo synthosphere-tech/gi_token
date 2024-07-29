@@ -27,9 +27,6 @@ export default function ContactPage() {
         <ContactArea/>
         {/* contact area end */}
 
-        {/* contact map start */}
-        <ContactMap/>
-        {/* contact map end */}
 
       </main>
       {/* main area end */}

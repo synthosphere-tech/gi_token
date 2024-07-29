@@ -618,8 +618,8 @@
             margin: 0 0 0 auto;
             @media #{$lg} {
                 margin: 0 auto 0;
-                width: 125px;
-                height: 125px;
+                width: auto;
+                height: auto;
                 & svg {
                     width: 75px;
                     height: 75px;
