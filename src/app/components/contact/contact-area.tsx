@@ -22,8 +22,8 @@ const ContactArea = () => {
                 <h4 className="title">information</h4>
                 <ul className="list-wrap">
                   <li>
-                    <Link href="mailto:info@gamingintelligence.com">
-                      info@gamingintelligence.com
+                    <Link href="mailto:info@gamingintelligence.io">
+                      info@gamingintelligence.io
                     </Link>
                   </li>
                 </ul>

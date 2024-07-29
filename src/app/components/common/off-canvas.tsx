@@ -36,7 +36,7 @@ const OffCanvas = ({isOffCanvasOpen,setIsOffCanvasOpen}:IProps) => {
                   <div className="offCanvas__contact">
                       <h4 className="small-title">CONTACT US</h4>
                       <ul className="offCanvas__contact-list list-wrap">
-                          <li><Link href="mailto:info@gamingintelligence.com">info@gamingintelligence.com</Link></li>
+                          <li><Link href="mailto:info@gamingintelligence.io">info@gamingintelligence.io</Link></li>
                       </ul>
                   </div>
                   <div className="offCanvas__newsletter">
