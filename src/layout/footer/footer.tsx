@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/assets/img/logo/GI2.png';
-import icon_1 from '@/assets/img/icons/social_icon01.png';
-import icon_2 from '@/assets/img/icons/social_icon02.png';
+import icon_1 from '@/assets/img/icons/youtube.png';
+import icon_2 from '@/assets/img/icons/twitter.png';
 import icon_3 from '@/assets/img/icons/social_icon03.png';
 import icon_4 from '@/assets/img/icons/social_icon04.png';
 import payment from '@/assets/img/others/payment_card.png';
@@ -25,10 +25,10 @@ const Footer = () => {
                   <p className="desc">Lorem ipsum dolor sitamet consectur adipiscing Duis esollici tudin augue euismod. Nulla ullam dolor sitamet consectetur</p>
                   <p className="social-title">Active <span>With Us <i className="fas fa-angle-double-right"></i></span></p>
                   <div className="footer-social">
-                    <Link href="#"><Image src={icon_1} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="#"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="#"><Image src={icon_3} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="#"><Image src={icon_4} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://youtu.be/Ana5iM6D7oo?si=rzoXfN9TXSiT9c7B"><Image src={icon_1} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://x.com/GI_Token_?t=G11le-dXL2WYe5JOoX2Jbg&s=08"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://www.instagram.com/gaming_intelligence?utm_source=qr&igsh=ODZ5ZHdja2oyMDJ3"><Image src={icon_3} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://t.me/Gaming_Intelligence"><Image src={icon_4} alt="iocn" width={30} height={30} /></Link>
                   </div>
                 </div>
               </div>
@@ -77,11 +77,11 @@ const Footer = () => {
                 <p>Copyright © {new Date().getFullYear()} - All Rights Reserved By <span>GI - Gaming Intelligence</span></p>
               </div>
             </div>
-            <div className="col-md-5">
+            {/* <div className="col-md-5">
               <div className="copyright__card text-center text-md-end">
                 <Image src={payment} alt="img" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

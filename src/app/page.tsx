@@ -13,6 +13,7 @@ import Footer from "@/layout/footer/footer";
 import HeroBannerTwo from "./components/hero-banner/hero-banner-2";
 import MatchResultArea from "./components/match-result/match-result-area";
 import AboutAreaTwo from "./components/about-area/about-area-2";
+import BrandArea from "./components/brand/brand-area";
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
         {/* road map area end */}
 
         {/* trending nft items start */}
-        <TrendingNftItems />
+        <BrandArea  />
         {/* trending nft items end */}
 
         {/* team area start */}

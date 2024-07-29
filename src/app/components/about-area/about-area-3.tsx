@@ -5,8 +5,8 @@ import AboutDots from '../svg/about-dots';
 import Circle from '../svg/circle';
 import circle_img from '@/assets/img/icons/circle.svg';
 import logo from '@/assets/img/logo/GI2.png'
-import mask_img from '@/assets/img/others/mask_img01.jpg';
-import mask_img_2 from '@/assets/img/others/mask_img02.jpg';
+import mask_img from '@/assets/img/others/vector 2.png';
+import mask_img_2 from '@/assets/img/others/519x362.png';
 import { auto } from '@popperjs/core';
 
 const AboutAreaThree = () => {
@@ -20,7 +20,7 @@ const AboutAreaThree = () => {
                         <i>Play</i>
                         <span>Game</span>
                         <i>and earn</i>
-                        <i>Cry<b>pto</b></i>
+                        <i><b>Crypto</b></i>
                     </h2>
                     <div className="about__content-circle">
                         <Image src={circle_img} alt="logo"/>
@@ -37,7 +37,7 @@ const AboutAreaThree = () => {
                     </div>
                 </div>
                 <div className="about__three-paragraph">
-                  <TextAnimation style_2={true} title='Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s when an unknown printer took a galley.' />
+                  <TextAnimation style_2={true} title='At Gaming Intelligence, we blend innovation and passion to create immersive gaming experiences. Our mission is to push the boundaries of virtual worlds, crafting unforgettable adventures for players everywhere. With a team of dedicated visionaries, we harness the power of technology to bring your gaming dreams to life. Join us on this thrilling journey, where imagination knows no limits and every player is a hero.' />
                 </div>
             </div>
         </div>

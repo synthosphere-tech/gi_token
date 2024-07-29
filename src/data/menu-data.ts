@@ -25,9 +25,9 @@ const menu_data:IMenuDataType[] = [
     title:'GI GAMES',
     link:'#',
     sub_menu:[
-      {title:'GI CRYPTO BUBBLE SHOOTER',link:'/tournament-details'},
-      {title:'GI CRYPTO BLAST',link:'/tournament-details'},
-      {title:'GI CRYPTO RUSH',link:'/tournament-details'},
+      {title:'GI CRYPTO BUBBLE SHOOTER',link:'#'},
+      {title:'GI CRYPTO BLAST',link:'#'},
+      {title:'GI CRYPTO RUSH',link:'#'},
     ]
   },
   // {
@@ -43,7 +43,7 @@ const menu_data:IMenuDataType[] = [
     title:'News',
     link:'#',
     sub_menu:[
-      {title:'Blog Details',link:'/blog-details'},
+      {title:'Blog Details',link:'#'},
     ]
   },
   {

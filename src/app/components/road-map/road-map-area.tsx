@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { InView } from "react-intersection-observer";
 import bg from "@/assets/img/bg/roadmap_bg.jpg";
-import road_map from "@/assets/img/others/roadmap.png";
+import road_map from "@/assets/img/others/sparrow.png";
 import road_map_step from "@/assets/img/others/roadmap_img.png";
 import useTextAnimation from "@/hooks/use-text-animation";
 
@@ -99,7 +99,7 @@ const RoadMapArea = () => {
           <div className="col-xl-10">
             <div className="roadMap__inner">
               <div className="row">
-                <div className="col-xl-5 col-lg-6">
+                <div className="col-xl-5 col-lg-8">
                   <div className="roadMap__content">
                     <h2 className="title">a look into roadmaps seasons</h2>
                     <p>
@@ -107,9 +107,6 @@ const RoadMapArea = () => {
                       sollicitudin is yaugue euismods Nulla ulla Player-focused
                       updates games from Mobile App and Enjoy.
                     </p>
-                    <Link href="/contact" className="tg-btn-1 -btn-yellow">
-                      <span>roadmap</span>
-                    </Link>
                   </div>
                   <div className="roadMap__img">
                     <Image
@@ -120,6 +117,9 @@ const RoadMapArea = () => {
                       alt="roadMap__img"
                     />
                   </div>
+                  <Link href="/contact" className="tg-btn-1 -btn-yellow">
+                      <span>roadmap</span>
+                    </Link>
                 </div>
                 <div className="col-xl-7 col-lg-6">
                   <div className="roadMap__steps-wrap">

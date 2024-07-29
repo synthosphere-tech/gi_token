@@ -6,7 +6,7 @@ import shape from "@/assets/img/icons/shape.svg";
 import SvgIconCom from "../common/svg-icon-anim";
 import circel from "@/assets/img/logo/GI2.png";
 import fun_fact_shape from "@/assets/img/others/fun_fact_shape.png";
-import fun_fact from "@/assets/img/others/2.png";
+import fun_fact from "@/assets/img/others/graphics front.png";
 import trophy from "@/assets/img/icons/trophy.png";
 import VideoPopup from "../common/video-popup";
 import CounterUp from "../common/counter-up";
