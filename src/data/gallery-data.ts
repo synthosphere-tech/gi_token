@@ -9,37 +9,31 @@ const gallery_data:{
   id: number;
   img: StaticImageData;
   title: string;
-  rate: string;
 }[] = [
   {
     id:1,
     img:img_1,
-    title:'GI tournament',
-    rate:'50%'
+    title:'GI tournament'
   },
   {
     id:2,
     img:img_2,
-    title:'GI Crypto Bubble Shooter',
-    rate:'65%'
+    title:'GI Crypto Bubble Shooter'
   },
   {
     id:3,
     img:img_4,
-    title:'Crypto Blast',
-    rate:'70%'
+    title:'Crypto Blast'
   },
   {
     id:4,
     img:img_5,
-    title:'Crypto Rush',
-    rate:'85%'
+    title:'Crypto Rush'
   },
   {
     id:5,
     img:img_5,
-    title:'GI Crypto',
-    rate:'60%'
+    title:'GI Crypto'
   },
 ]
 

@@ -14,7 +14,7 @@ const VideoArea = () => {
               <div className="video__content text-center">
                 <a
                   className="popup-video cursor-pointer"
-                  onClick={() => setIsVideoOpen(true)}
+                  href="https://youtu.be/Ana5iM6D7oo?si=rzoXfN9TXSiT9c7B"
                 >
                   <i className="flaticon-play"></i>
                 </a>
@@ -23,7 +23,7 @@ const VideoArea = () => {
                 </h2>
                 <p>Join our Telegram community and choose consteur</p>
                 <a
-                  href="https://telegram.com/"
+                  href="https://t.me/Gaming_Intelligence"
                   target="_blank"
                   className="video__btn tg-btn-1"
                 >

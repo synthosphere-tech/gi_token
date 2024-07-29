@@ -56,7 +56,7 @@ export default function Home() {
         {/* trending nft items end */}
 
         {/* team area start */}
-        <TeamArea />
+        
         {/* team area end*/}
 
         {/* video area start */}

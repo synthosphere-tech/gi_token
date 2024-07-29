@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { InView } from "react-intersection-observer";
 import bg from "@/assets/img/bg/roadmap_bg.jpg";
-import road_map from "@/assets/img/others/sparrow.png";
+import road_map from "@/assets/img/others/1095 test5.png";
 import road_map_step from "@/assets/img/others/roadmap_img.png";
 import useTextAnimation from "@/hooks/use-text-animation";
 

@@ -22,12 +22,12 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="footer-text">
-                  <p className="desc">Lorem ipsum dolor sitamet consectur adipiscing Duis esollici tudin augue euismod. Nulla ullam dolor sitamet consectetur</p>
+                  <p className="desc">At Gaming Intelligence, we blend cutting-edge technology with immersive storytelling to create unforgettable gaming experiences. Join us on epic adventures where every moment is crafted with passion and precision</p>
                   <p className="social-title">Active <span>With Us <i className="fas fa-angle-double-right"></i></span></p>
                   <div className="footer-social">
                     <Link href="https://youtu.be/Ana5iM6D7oo?si=rzoXfN9TXSiT9c7B"><Image src={icon_1} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="https://x.com/GI_Token_?t=G11le-dXL2WYe5JOoX2Jbg&s=08"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="https://www.instagram.com/gaming_intelligence?utm_source=qr&igsh=ODZ5ZHdja2oyMDJ3"><Image src={icon_3} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://x.com/GI_Token"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://www.instagram.com/gaming_intelligence"><Image src={icon_3} alt="iocn" width={30} height={30} /></Link>
                     <Link href="https://t.me/Gaming_Intelligence"><Image src={icon_4} alt="iocn" width={30} height={30} /></Link>
                   </div>
                 </div>
