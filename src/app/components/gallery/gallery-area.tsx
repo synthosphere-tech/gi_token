@@ -81,7 +81,6 @@ const GalleryArea = () => {
                       </div>
                       <div className="gallery__content">
                         <h3 className="title">{item.title}</h3>
-                        <span className="rate">rate {item.rate}</span>
                       </div>
                     </div>
                   </SwiperSlide>
