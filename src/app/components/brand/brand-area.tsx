@@ -7,8 +7,8 @@ import brand_1 from '@/assets/img/brand/image__3__f_720.png';
 import brand_2 from '@/assets/img/brand/image_f.png';
 import brand_3 from '@/assets/img/brand/image__2__f.png';
 import brand_4 from '@/assets/img/brand/image__1__f.png';
-import brand_5 from '@/assets/img/brand/brand05.png';
-import brand_6 from '@/assets/img/brand/brand06.png';
+import brand_5 from '@/assets/img/brand/mexc.png';
+import brand_6 from '@/assets/img/brand/bybit.png';
 import brand_7 from '@/assets/img/brand/brand07.png';
 
 // slider setting
@@ -18,7 +18,7 @@ const slider_setting = {
 	speed: 500,
 	autoplay: true,
 	arrows: false,
-	slidesToShow: 4,
+	slidesToShow: 6,
 	slidesToScroll: 2,
 	responsive: [
 		{
@@ -56,7 +56,7 @@ const slider_setting = {
 };
 
 // brands
-const brands = [brand_1,brand_2,brand_3,brand_4]
+const brands = [brand_1,brand_2,brand_3,brand_4,brand_5,brand_6]
 const BrandArea = () => {
 	const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   return (
