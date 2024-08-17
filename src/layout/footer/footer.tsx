@@ -26,7 +26,7 @@ const Footer = () => {
                   <p className="social-title">Active <span>With Us <i className="fas fa-angle-double-right"></i></span></p>
                   <div className="footer-social">
                     <Link href="https://youtu.be/Ana5iM6D7oo?si=rzoXfN9TXSiT9c7B"><Image src={icon_1} alt="iocn" width={30} height={30} /></Link>
-                    <Link href="https://x.com/GI_Token"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
+                    <Link href="https://x.com/GI_Token_"><Image src={icon_2} alt="iocn" width={30} height={30} /></Link>
                     <Link href="https://www.instagram.com/gaming_intelligence"><Image src={icon_3} alt="iocn" width={30} height={30} /></Link>
                     <Link href="https://t.me/Gaming_Intelligence"><Image src={icon_4} alt="iocn" width={30} height={30} /></Link>
                   </div>
