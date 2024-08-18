@@ -14,6 +14,9 @@ import HeroBannerTwo from "./components/hero-banner/hero-banner-2";
 import MatchResultArea from "./components/match-result/match-result-area";
 import AboutAreaTwo from "./components/about-area/about-area-2";
 import BrandArea from "./components/brand/brand-area";
+import Countdown from "./components/Countdown/Countdown";
+import TournamentArea from "./components/tournaments/tournament-area";
+import TokenomicsArea from "./components/tokenomics/tokenomics-area";
 
 export default function Home() {
   return (
@@ -27,6 +30,9 @@ export default function Home() {
         {/* hero banner start */}
         <HeroBannerTwo />
         {/* hero banner end */}
+
+        <TournamentArea />
+        {/* <TokenomicsArea /> */}
 
         {/* nft item area start */}
         {/* <MatchResultArea /> */}

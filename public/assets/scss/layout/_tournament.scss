@@ -101,6 +101,10 @@
                 font-size: 18px;
                 letter-spacing: 0;
             }
+            & h3 {
+                font-size: 16px;
+                color: var(--tg-common-color-blue);
+            }
         }
         &-countdown {
             margin: 0 0 46px;
@@ -144,10 +148,10 @@
             margin: 0 0 28px;
             & .sub {
                 display: block;
-                font-size: 16px;
+                font-size: 22px;
                 line-height: 1;
                 font-family: var(--tg-heading-font-family);
-                color: var(--tg-common-color-white);
+                color: var(--tg-common-color-blue);
                 font-weight: var(--tg-fw-extra-bold);
                 letter-spacing: 1px;
                 margin: 0 0 5px;
@@ -164,7 +168,7 @@
             text-align: center;
             background: var(--tg-common-color-black-4);
             @include border-radius(10px);
-            font-size: 18px;
+            font-size: 14px;
             text-transform: uppercase;
             font-family: var(--tg-heading-font-family);
             font-weight: var(--tg-fw-bold);
@@ -179,6 +183,13 @@
             & i {
                 color: var(--tg-theme-secondary);
                 font-size: 16px;
+            }
+            & .sub_des {
+                color: var(--tg-common-color-blue);
+            }
+            & .des {
+                font-size: 22px;
+                color: var(--tg-theme-secondary);
             }
         }
         &-list {

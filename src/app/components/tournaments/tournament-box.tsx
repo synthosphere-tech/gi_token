@@ -9,7 +9,6 @@ const TournamentBox = ({ item }: { item: ITournament }) => {
     <div className={`tournament__box-wrap ${item.active ? "active" : ""}`}>
       <TournamentBoxBgPatch />
       <div className="tournament__box-price">
-        <i className="fas fa-trophy"></i>
         <span>{item.box_price}</span>
       </div>
       <div className="tournament__box-countdown">
@@ -22,8 +21,7 @@ const TournamentBox = ({ item }: { item: ITournament }) => {
         <h4 className="title">{item.title}</h4>
       </div>
       <div className="tournament__box-prize">
-        <i className="fas fa-trophy"></i>
-        <span>{item.places} prize Places</span>
+        <span>{item.places} </span>
       </div>
       <ul className="tournament__box-list list-wrap">
         {item.list_items.map((l) => (
@@ -34,7 +32,7 @@ const TournamentBox = ({ item }: { item: ITournament }) => {
               </div>
               <h6 className="tournament__player-name">{l.name}</h6>
               <span className="tournament__player-price">
-                $ {l.price} <i className="fas fa-bolt"></i>
+                {l.price} 
               </span>
             </div>
           </li>

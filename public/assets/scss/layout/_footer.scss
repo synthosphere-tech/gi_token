@@ -327,7 +327,21 @@
     }
     &-form {
         position: relative;
+        width: 100%;
         & [type=email] {
+            display: block;
+            border: none;
+            background: #1f2935;
+            width: 100%;
+            @include border-radius(6px);
+            padding: 17px 100px 17px 25px;
+            font-size: 14px;
+            height: 60px;
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+        & [type=text] {
             display: block;
             border: none;
             background: #1f2935;
