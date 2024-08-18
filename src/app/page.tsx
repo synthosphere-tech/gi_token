@@ -1,22 +1,14 @@
 import Wrapper from "@/layout/wrapper";
 import Header from "@/layout/header/header";
-import HeroBanner from "./components/hero-banner/hero-banner";
-import NftItemArea from "./components/nft-item/nft-item-area";
-import AboutArea from "./components/about-area/about-area";
 import GalleryArea from "./components/gallery/gallery-area";
-import TeamArea from "./components/team/team-area";
 import area_bg from "@/assets/img/bg/area_bg01.jpg";
 import VideoArea from "./components/video/video-area";
 import RoadMapArea from "./components/road-map/road-map-area";
-import TrendingNftItems from "./components/nft-item/trending-nft-items";
 import Footer from "@/layout/footer/footer";
 import HeroBannerTwo from "./components/hero-banner/hero-banner-2";
-import MatchResultArea from "./components/match-result/match-result-area";
 import AboutAreaTwo from "./components/about-area/about-area-2";
 import BrandArea from "./components/brand/brand-area";
-import Countdown from "./components/Countdown/Countdown";
 import TournamentArea from "./components/tournaments/tournament-area";
-import TokenomicsArea from "./components/tokenomics/tokenomics-area";
 
 export default function Home() {
   return (
