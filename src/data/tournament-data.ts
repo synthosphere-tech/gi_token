@@ -21,18 +21,19 @@ const tournament_data:ITournament[] = [
     status: 'Online',
     list_items: [
       {
-        id:1,
-        img:list_img_1,
-        name:'BSC Network',
-        price:'100000000 GI'
+        id: 1,
+        img: list_img_1,
+        name: 'BSC Network',
+        price: '100000000 GI'
       },
       {
-        id:2,
-        img:list_img_2,
-        name:'Matic Network',
-        price:'100000000 GI'
+        id: 2,
+        img: list_img_2,
+        name: 'Matic Network',
+        price: '100000000 GI'
       }
-    ]
+    ],
+    img: ''
   },
   // {
   //   id:3,

@@ -24,7 +24,7 @@ const TournamentListItem = ({ item, index }: IProp) => {
         <div className="tournament__list-thumb">
           <Link href="/tournament-details">
             <Image
-              src={item.thumb}
+              src={item.img}
               alt="thumb"
               style={{ width: "auto", height: "auto" }}
             />

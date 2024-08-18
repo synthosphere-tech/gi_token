@@ -1,6 +1,8 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { StaticImageData } from "next/image";
 
 export interface ITournament {
+  img: string | StaticImport;
   id: number;
   box_price: string;
   coming_time: string;
