@@ -11,7 +11,7 @@ const tournament_data:ITournament[] = [
   {
     id: 1,
     box_price: '$0.0011',
-    coming_time: '2024-08-20',
+    coming_time: '2024-08-20T12:30:00',
     description: '',
     subtitle: 'GI',
     title: 'Private Sale',
