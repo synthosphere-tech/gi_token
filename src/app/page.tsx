@@ -26,6 +26,8 @@ export default function Home() {
         <TournamentArea />
         {/* <TokenomicsArea /> */}
 
+        <BrandArea  />
+
         {/* nft item area start */}
         {/* <MatchResultArea /> */}
         {/* nft item area end */}
@@ -50,7 +52,7 @@ export default function Home() {
         {/* road map area end */}
 
         {/* trending nft items start */}
-        <BrandArea  />
+        
         {/* trending nft items end */}
 
         {/* team area start */}
