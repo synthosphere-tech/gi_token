@@ -4,6 +4,11 @@ import { FaClipboard, FaClipboardCheck } from 'react-icons/fa';
 import TournamentBox from './tournament-box';
 import TextAnimation from '../common/text-animation';
 import tournament_data from '@/data/tournament-data';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Scrollbar } from 'swiper/modules';
+import ProgressBar from './progress-bar';
+
+
 
 const TournamentArea = () => {
 
@@ -42,6 +47,7 @@ const TournamentArea = () => {
                     </div>
                   ))}
                 </div>
+                <ProgressBar />
                 <div className="col justify-content-center gutter-25">
                   <div className="section__title text-start mb-30">
                     <h3 className="title">
