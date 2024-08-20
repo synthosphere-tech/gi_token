@@ -1,3 +1,4 @@
+import { Tooltip } from '@nextui-org/tooltip';
 import {Line} from 'rc-progress'
 
 const ProgressBar = () => {
