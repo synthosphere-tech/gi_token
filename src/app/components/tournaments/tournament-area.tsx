@@ -46,8 +46,12 @@ const TournamentArea = () => {
                         <TournamentBox item={item} />
                     </div>
                   ))}
+                  <div className="mb-25">
+                    <h4 className="">Private Sale in Progress</h4>
+                  </div>
+                  <ProgressBar />
                 </div>
-                <ProgressBar />
+                
                 <div className="col justify-content-center gutter-25">
                   <div className="section__title text-start mb-30">
                     <h3 className="title">
